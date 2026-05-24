@@ -6,8 +6,82 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "listOfPeople",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "favoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
-				"name": "favoriteNumber",
+				"name": "myfavoriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "nameToFavoriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrieve",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -60,11 +134,11 @@
 	},
 	"sources": {
 		"Contract1.sol": {
-			"keccak256": "0xa89bec483d9e078596cfd85b9cdccc2b2bbbb75a2efdd720fc61c2ba241780a5",
+			"keccak256": "0xff6b346458f7b8fca2c9671f3e269e30c8146db7bf25d5407341eeac1c33a202",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8127b96ee10fb9d24fb1290e19707cf8b25a929bd609ac5d12ad0f386ec356f3",
-				"dweb:/ipfs/QmefyzDGd8xA7Nc5r52yRvFcCavCuia1hJir8i4V32gMtx"
+				"bzz-raw://4496cd8af2fa4f4e0e87199d232d28fab5d0356898bb2abea609b329dfc7dda1",
+				"dweb:/ipfs/QmRKVZz7zSVWi4aLu7XXqv1Dck1WZPPfXcF932hXg9Ztee"
 			]
 		}
 	},
